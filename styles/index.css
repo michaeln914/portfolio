@@ -5,7 +5,7 @@ body {
 
 .banner {
   padding: 125px 0;
-  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("../../assets/images/banner.jpeg");
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("../../assets/images/banner.webp");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -80,5 +80,24 @@ hr.style1 {
   text-align: center;
   vertical-align: middle;
   display: table-cell;
+}
 
+.contactBox {
+  background-color: white;
+  opacity: 0.8;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.fa_style a{
+  color: #6ead3a;
+  padding-left: 25px;
+}
+
+#divider .parallax-container {
+  height: 250px;
+}
+
+#contact .parallax-container {
+  height: 99vh;
 }
