@@ -7,6 +7,9 @@ body {
 
 .banner {
   padding: 125px 0;
+  background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.8))), url("/assets/images/banner.webp");
+  background: -webkit-linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/assets/images/banner.webp");
+  background: -o-linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/assets/images/banner.webp");
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/assets/images/banner.webp");
   background-size: cover;
   background-position: center;
@@ -15,7 +18,7 @@ body {
 
 .banner h1 {
   color: #efedef;
-  text-align center;
+  text-align: center;
 }
 
 .banner p {
